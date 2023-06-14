@@ -10,7 +10,7 @@ import ProjectsMDX from "../sections/projects.mdx"
 const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
   <div>
     <Divider 
-      bg="linear-gradient(to right, #3F979B 0%, #B799FF 100%, #205E61 0%)"
+      bg="linear-gradient(to right, #14FFEC 0%, /** #0D7377 0%,*/ #323232 100%)"
       sx={{ clipPath: `polygon(0 15%, 100% 25%, 100% 85%, 0 75%)` }}
       speed={-0.2}
       offset={1.1}
