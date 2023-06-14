@@ -9,8 +9,8 @@ import ProjectsMDX from "../sections/projects.mdx"
 
 const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
   <div>
-    <Divider
-      bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
+    <Divider 
+      bg="linear-gradient(to right, #3F979B 0%, #B799FF 100%, #205E61 0%)"
       sx={{ clipPath: `polygon(0 15%, 100% 25%, 100% 85%, 0 75%)` }}
       speed={-0.2}
       offset={1.1}
@@ -23,7 +23,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
             display: `grid`,
             gridGap: [4, 4, 4, 5],
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
-            h2: { gridColumn: `-1/1`, color: `white !important` },
+            h2: { gridColumn: `-1/1`, color: `black !important` },
           }}
         >
           <ProjectsMDX />

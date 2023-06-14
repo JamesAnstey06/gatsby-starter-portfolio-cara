@@ -21,7 +21,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       borderRadius: `lg`,
       px: 4,
       py: 4,
-      color: `white`,
+      color: "black",
       background: bg || `none`,
       transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
       "&:hover": {
@@ -37,7 +37,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
         textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)`,
         p: {
           fontSize: [1, 2],
-          color: `white`,
+          color: `black`,
           margin: 0,
           lineHeight: 1.25,
         },
