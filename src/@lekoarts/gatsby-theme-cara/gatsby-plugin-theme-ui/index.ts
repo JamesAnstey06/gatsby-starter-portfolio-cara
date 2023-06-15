@@ -15,11 +15,11 @@ const theme = merge(tailwind, {
   colors: {
     primary: tailwind.colors.orange[4],
     secondary: tailwind.colors.indigo[6],
-    text: tailwind.colors.gray[3],
-    heading: tailwind.colors.white,
+    text: tailwind.colors.black,
+    heading: tailwind.colors.black,
     background: `#F4F9F9`,
-    divider: tailwind.colors.gray[8],
-    textMuted: tailwind.colors.gray[5],
+    divider: 'linear-gradient(to right, #85FDFF 5%, #FF70FF 95%)',
+    textMuted: tailwind.colors.black[5],
     icon_brightest: tailwind.colors.white,
     icon_darker: tailwind.colors.gray[7],
     icon_darkest: tailwind.colors.gray[8],
@@ -32,7 +32,7 @@ const theme = merge(tailwind, {
     icon_green: tailwind.colors.green[5],
     modes: {
       light: {
-        text: tailwind.colors.gray[8],
+        text: tailwind.colors.red[8],
         heading: tailwind.colors.black,
         primary: tailwind.colors.orange[7],
         background: tailwind.colors.gray[1],

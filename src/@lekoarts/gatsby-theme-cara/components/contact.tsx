@@ -50,6 +50,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
         <Svg icon="upDown" hiddenMobile width={8} color="#37306B" left="45%" top="10%" />
       </UpDownWide>
       <Svg icon="circle" width={6} color="#66347F" left="4%" top="20%" />
+      <Svg icon="circle" width={8} color="#E06469" left="10%" top="50%" />
       <Svg icon="circle" width={12} color="#9E4784" left="70%" top="60%" />
       <Svg icon="box" width={12} color="#D27685" left="20%" top="30%" />
       <Svg icon="hexa" width={8} stroke color="#9E4784" left="80%" top="70%" />

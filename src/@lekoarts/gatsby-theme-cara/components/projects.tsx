@@ -10,7 +10,7 @@ import ProjectsMDX from "../sections/projects.mdx"
 const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
   <div>
     <Divider 
-      bg="linear-gradient(to right, #14FFEC 0%, /** #0D7377 0%,*/ #323232 100%)"
+      bg="linear-gradient(to right, #14FFEC 5%, #91FF85 95%)"
       sx={{ clipPath: `polygon(0 15%, 100% 25%, 100% 85%, 0 75%)` }}
       speed={-0.2}
       offset={1.1}
@@ -34,7 +34,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
       <UpDown>
         <Svg icon="box" width={6} color="icon_brightest" left="85%" top="75%" />
         <Svg icon="upDown" width={8} color="icon_teal" left="70%" top="20%" />
-        <Svg icon="triangle" width={8} stroke color="icon_orange" left="25%" top="5%" />
+        <Svg icon="triangle" width={8} stroke color="icon_oranage" left="25%" top="5%" />
         <Svg icon="circle" hiddenMobile width={24} color="icon_brightest" left="17%" top="60%" />
       </UpDown>
       <UpDownWide>

@@ -15,17 +15,17 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
     rel="noreferrer noopener"
     sx={{
       width: `100%`,
-      boxShadow: `lg`,
+      boxShadow: `full`,
       position: `relative`,
       textDecoration: `none`,
-      borderRadius: `lg`,
-      px: 4,
+      borderRadius: `full`,
+      px: 6,
       py: 4,
       color: "black",
-      background: bg || `none`,
+      background: bg || `blue`,
       transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
       "&:hover": {
-        color: `white !important`,
+        color: ` white !important`,
         transform: `translateY(-5px)`,
         boxShadow: `xl`,
       },
@@ -33,6 +33,19 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
   >
     <div
       sx={{
+        textTransform: `uppercase`,
+        letterSpacing: `wide`,
+        pt: 4,
+        fontSize: [3, 4, 5],
+        fontWeight: `medium`,
+        lineHeight: 1.125,
+      }}
+    >
+      {title}
+    </div><div
+      
+      sx={{
+        
         opacity: 0.85,
         textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)`,
         p: {
@@ -45,18 +58,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
     >
       {children}
     </div>
-    <div
-      sx={{
-        textTransform: `uppercase`,
-        letterSpacing: `wide`,
-        pt: 4,
-        fontSize: [3, 4, 5],
-        fontWeight: `medium`,
-        lineHeight: 1.125,
-      }}
-    >
-      {title}
-    </div>
+    
   </a>
 )
 
