@@ -13,10 +13,10 @@ const theme = merge(tailwind, {
     initialColorModeName: `dark`,
   },
   colors: {
-    primary: tailwind.colors.orange[4],
+    primary: tailwind.colors.blue[4],
     secondary: tailwind.colors.indigo[6],
-    text: tailwind.colors.black,
-    heading: tailwind.colors.black,
+    text: "#008080",
+    heading: "#008080",
     background: `#F4F9F9`,
     divider: 'linear-gradient(to right, #85FDFF 5%, #FF70FF 95%)',
     textMuted: tailwind.colors.black[5],

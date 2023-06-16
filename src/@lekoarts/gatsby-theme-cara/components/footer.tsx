@@ -6,9 +6,9 @@ const Footer = () => {
   const isDark = colorMode === `dark`
 
   return (
-    <Box as="footer" variant="footer">
+    <Box as="footer" variant="footer" color="black">
       <button
-        sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3 }}
+        sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3, color: "black" }}
         onClick={() => {
           const next = isDark ? `light` : `dark`
           setColorMode(next)
@@ -18,7 +18,7 @@ const Footer = () => {
         data-testid="color-mode-toggle"
         aria-label={isDark ? `Activate Light Mode` : `Activate Dark Mode`}
       >
-        {isDark ? `Dark` : `Light`}
+        {isDark ? `Light` : `Dark`}
       </button>
       Copyright &copy; {new Date().getFullYear()}. All rights reserved.
       <br />
@@ -27,9 +27,9 @@ const Footer = () => {
           justifyContent: `center`,
           alignItems: `center`,
           mt: 3,
-          color: `text`,
+          color: `black`,
           fontWeight: `semibold`,
-          a: { color: `text` },
+          a: { color: `black` },
         }}
       >
         {isDark ? (
